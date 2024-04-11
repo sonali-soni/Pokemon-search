@@ -3,8 +3,9 @@
     height: 74px;
     padding: 10px 0;
     background: linear-gradient(rgb(238, 131, 40) 0%, rgb(225, 67, 24) 100%);
-    position: relative;
-    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header {
@@ -17,14 +18,6 @@
     margin: auto;
 }
 
-.header-right-icons a {
+.header-right a {
     padding: 10px;
-}
-
-.divider {
-    margin: auto;
-    max-width: 1140px;
-    width: 100%;
-    border-bottom: 1.4px solid #242424;
-    padding: 6px 0;
 }

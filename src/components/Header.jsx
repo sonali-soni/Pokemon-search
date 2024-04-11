@@ -29,7 +29,7 @@ const Header = () => {
                     </div>
                 </Link>
 
-                <div className="header-right-icons">
+                <div className="header-right">
                     <a target='_blank' href="https://www.linkedin.com/in/sonalisoni246/" aria-label="LinkedIn Profile">
                         <img src="/Linkedin.svg" alt="Linkedin" />
                     </a>
@@ -39,7 +39,6 @@ const Header = () => {
                 </div>
 
             </div>
-            <div className="divider"></div>
         </section>
     )
 }
