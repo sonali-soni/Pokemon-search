@@ -37,7 +37,6 @@ const Header = () => {
                         <img src="/Github.svg" alt="Github" />
                     </a>
                 </div>
-
             </div>
         </section>
     )

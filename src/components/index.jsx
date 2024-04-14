@@ -3,3 +3,4 @@ export { default as Listing } from './Listing';
 export { default as Search } from './Search';
 export { default as Loading } from './Loading';
 export { default as Navigation } from './Navigation';
+export { default as Footer } from './Footer';

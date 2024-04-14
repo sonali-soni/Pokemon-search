@@ -2,7 +2,7 @@
 import React from 'react';
 
 // ** Custom Components Imports
-import { Header, Listing, Navigation, Search } from '../components'
+import { Header, Listing, Navigation, Search, Footer, ScrollButton } from '../components'
 
 const Home = () => {
 
@@ -12,6 +12,7 @@ const Home = () => {
             <Navigation />
             <Search />
             <Listing />
+            <Footer />
         </>
     )
 }

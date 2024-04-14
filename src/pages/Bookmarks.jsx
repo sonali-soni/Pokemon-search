@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
 // ** Custom Components Imports
-import { Header, Navigation, Search } from '../components'
+import { Header, Navigation, Search, Footer } from '../components'
 
 // ** Custom Utilities Functions Imports
 import { capitalizeFirstLetter } from '../utils/functions';
@@ -48,6 +48,7 @@ const Bookmarks = () => {
         <>
             <Header />
             <Navigation />
+            <main>
             <Search />
             <section className='listing-main'>
                 <div className="listing">
@@ -92,6 +93,8 @@ const Bookmarks = () => {
                     </div>
                 </div>
             </section>
+            </main>
+            <Footer />
         </>
     )
 }

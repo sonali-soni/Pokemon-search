@@ -1,6 +1,10 @@
 .navigation-main {
     width: 100%;
     padding: 10px 0;
+    position: sticky;
+    top: 80px;
+    z-index: 100;
+    background: #8b0000;
 }
 
 .navigation {

@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 // ** Custom Components Imports
-import { Header, Loading, Navigation, Search } from '../components';
+import { Header, Loading, Navigation, Search, Footer } from '../components';
 
 // ** Third Party Import
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
@@ -170,6 +170,8 @@ const Details = () => {
                     </div>
                 </section>
             }
+
+            <Footer />
         </>
     )
 }
