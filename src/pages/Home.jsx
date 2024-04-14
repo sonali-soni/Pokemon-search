@@ -2,7 +2,7 @@
 import React from 'react';
 
 // ** Custom Components Imports
-import { Header, Listing, Navigation, Search, Footer, ScrollButton } from '../components'
+import { Header, Listing, Navigation, Search, Footer } from '../components'
 
 const Home = () => {
 
