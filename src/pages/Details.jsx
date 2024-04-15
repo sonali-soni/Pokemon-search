@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
 // ** Custom Components Imports
-import { Header, Loading, Navigation, Search, Footer } from '../components';
+import { Loading } from '../components';
 
 // ** Third Party Import
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
@@ -59,10 +59,6 @@ const Details = () => {
 
     return (
         <>
-            <Header />
-            <Navigation />
-            <Search />
-
             {
                 loading ? <Loading /> :
                     pokemon && pokemon.length === 0 ?
@@ -170,8 +166,6 @@ const Details = () => {
                     </div>
                 </section>
             }
-
-            <Footer />
         </>
     )
 }

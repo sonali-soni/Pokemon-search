@@ -12,6 +12,7 @@ import { Bookmarks, Details, Home } from './pages'
 
 // ** Imports from PokemonSlice
 import { fetchPokemons, updateActiveRoute, fetchPokemonTypes } from './store/pokemon';
+import { Header, Navigation, Search, Footer } from './components';
 
 function App() {
 
@@ -32,11 +33,15 @@ function App() {
   return (
     <>
       <Router>
+        <Header />
+        <Navigation />
+        <Search />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/pokemon/:name' element={<Details />} />
           <Route exact path='/pokemon/bookmarks' element={<Bookmarks />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

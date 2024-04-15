@@ -86,10 +86,6 @@ form button:hover {
     form input {
         width: 85%;
     }
-
-    form button {
-        width: 15%;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -99,9 +95,5 @@ form button:hover {
 
     form input {
         width: 75%;
-    }
-
-    form button {
-        width: 25%;
     }
 }
