@@ -10,10 +10,10 @@
 
 # Getting Started
 - Clone the repository to your local machine:
-git clone 
+git clone https://github.com/sonali-soni/Pokemon-search.git
 
 - Navigate to the project directory:
-cd pokedex-web-app
+cd Pokemon-search
 
 - Install the dependencies:
 npm install
